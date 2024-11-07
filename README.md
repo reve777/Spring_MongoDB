@@ -3,7 +3,7 @@ PostMan TEST API
 
 
 __1.排程 每日 18:00呼叫 API__  
-__unitTest path:__/Spring-MongoDB/src/test/java/com/portfolio/forexTest/ScheduleDataTest.java  
+__unitTest path:__  /Spring-MongoDB/src/test/java/com/portfolio/forexTest/ScheduleDataTest.java  
 <img  width="100%" src="https://github.com/reve777/Spring_MongoDB/blob/main/Spring-MongoDB/src/main/resources/static/images/schedule.png" />
 
 
