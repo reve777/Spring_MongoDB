@@ -47,7 +47,8 @@ reuqestBody
     "endDate":"2024/11/06",  
     "currency":"usd"  
 }  
-request:  
+Response:  
+Success:  
 {
     "error": {
         "code": "0000",
@@ -71,7 +72,8 @@ reuqestBody
     "endDate":"2025/11/06",  
     "currency":"usd"  
 }  
-request:  
+Response:  
+Failed  
 {
     "code": "E001",
     "message": "日期區間不符"
