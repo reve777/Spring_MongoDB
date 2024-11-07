@@ -3,10 +3,12 @@ PostMan TEST API
 
 
 __1.排程 每日 18:00呼叫 API__  
+path:/Spring-MongoDB/src/test/java/com/portfolio/forexTest/ScheduleDataTest.java  
 <img  width="100%" src="https://github.com/reve777/MongoDB/blob/main/Spring-MongoDB/src/main/resources/static/images/schedule.png" />
 
+
 __2.forex API，從 DB取出日期區間內美元 /台幣的歷史資料 Post or Get__  
-reuqestBody.currency:  
+reuqestBody.currency.reuqestBody參數:  
  "usd" //需求request  
  "usdNtdRate"  
 
@@ -35,9 +37,10 @@ reuqestBody.currency:
  "usdZarRate"  
 
  "nzdUsd"  
- "nzdUsdRate"  
+ "nzdUsdRate"
+
 ---------------------------------------------------------------------------------------------------------------------
- http://localhost:8080/portfolio/api/forex/historical  
+__http://localhost:8080/portfolio/api/forex/historical__  
 reuqestBody  
 {  
     "startDate":"2024/10/01",  
@@ -61,7 +64,7 @@ request:
 
 
 ---------------------------------------------------------------------------------------------------------------------
-http://localhost:8080/portfolio/api/forex/historical  
+__http://localhost:8080/portfolio/api/forex/historical__  
 reuqestBody  
 {  
     "startDate":"2024/10/01",  
