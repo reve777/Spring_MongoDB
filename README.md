@@ -6,7 +6,7 @@ PostMan TEST API
 <img  width="100%" src="https://github.com/reve777/MongoDB/blob/main/Spring-MongoDB/src/main/resources/static/images/schedule.png" />
 
 2.forex API，從 DB取出日期區間內美元 /台幣的歷史資料 Post or Get  
-reuqestBody.currency:
+reuqestBody.currency:  
  "usd" //需求request  
  "usdNtdRate"  
 
